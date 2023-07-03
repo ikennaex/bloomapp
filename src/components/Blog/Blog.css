@@ -1,0 +1,26 @@
+.welcome-text {
+    /* align-items: center; */
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.publish-post {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--purple-color);
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.publish-text {
+    color: var(--purple-color);
+    font-weight: 600;
+}
+
+.blogpreview-blogpage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

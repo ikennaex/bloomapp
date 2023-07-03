@@ -1,0 +1,41 @@
+.blogpost {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.blogpost-main {
+    max-width: 720px;
+}
+
+.blogpost-title {
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: -3px;    
+}
+
+.blogpost-authorpicture {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.blogpost-authorpicture img {
+    height:40px;
+}
+
+.blogpost-publish {
+    font-size: 13px;
+}
+
+.blogpostpublish-date {
+    font-weight: 600;
+}
+
+.blogpost-image {
+    width: 720px;
+    height: 500px;
+    object-fit: cover;
+    object-position: 25% 25%;
+}

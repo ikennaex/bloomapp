@@ -1,0 +1,44 @@
+.user-tools div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.user-tools img {
+    height: 20px;
+}
+
+.user-tools p {
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.user-profile-image {
+    height: 45px;
+}
+
+.addnewpost-div {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.add-newpost-icon {
+    color: var(--purple-color);
+}
+
+.add-post-options {
+    background-color: rgb(255, 255, 255);
+    width: fit-content;
+    border-radius: 6px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+
+
+    /* -webkit-animation: shadow-drop-tb 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: shadow-drop-tb 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; */
+}

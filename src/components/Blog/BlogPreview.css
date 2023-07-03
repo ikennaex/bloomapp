@@ -1,0 +1,39 @@
+.blogprevieW-main {
+    border: 1px solid #ccc;
+    width: 350px;
+    /* height: 400px; */
+    object-fit: contain;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--white-color);
+    margin: 20px;
+}
+
+.blogpreview-img {
+    width: 350px;
+    height: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+    object-fit: cover;
+    object-position: 25% 25%;
+}
+
+.blogpreview-title {
+    font-size: 23px;
+    font-weight: 800;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+.blogpreview-desc {
+    width: 350px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.blogpreview-author {
+    font-weight: 700;
+    color: var(--purple-color);
+}

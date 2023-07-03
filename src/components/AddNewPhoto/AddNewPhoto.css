@@ -1,0 +1,51 @@
+.addnewphoto-div {
+    margin: 50px;
+    display: flex;
+}
+
+.newpostdiv {
+    background-color: #fff;
+    margin-left: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.newpostform {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.postapic-text {
+    margin-bottom: 0;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.newpostform button {
+    background-color: var(--purple-color);
+    font-family: manrope;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #FFF;
+    cursor: pointer;
+    padding: 0.2rem;
+    width: 5rem;
+    height: 2.3rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.newpostform input[type="text"] {
+    box-sizing: border-box;
+    border: none;
+    padding-left: 10px;
+    background-color: var(--input-color);
+    width: 100%;
+    height: 50px;
+    gap: 10px;
+    border-radius: 5px;
+    font-family: manrope;
+
+}

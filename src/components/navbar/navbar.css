@@ -1,0 +1,114 @@
+.navbar {
+    background-color: rgb(255, 255, 255);
+    padding: 0 3rem;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center; 
+    border-bottom: 1px solid #ccc;
+    /* -webkit-animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; */
+
+}
+
+.userInfo-div {
+  display: flex;
+  gap: 20px;
+}
+
+.logoandsearch {
+  display: flex;
+  gap: 40px;
+}
+
+.search-bloom {
+  background-color: var(--input-color);
+  border: none;
+  font-family: manrope;
+  border-radius: 10px;
+  padding: 10px 10px;
+  width: 250px;
+}
+
+.logo {
+    font-family: montserrat;
+    letter-spacing: -2px;
+    margin-top: 0;
+    padding-left: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    cursor: pointer;
+
+}
+
+.signup {
+    display: flex;
+    align-items: center;
+}
+
+.createaccount-btn {
+    margin: 0.5rem;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: manrope;
+    color: var(--purple-color);
+    cursor: pointer;
+}
+
+.login-btn {
+  background-color: var(--input-color);
+  margin: 0.5rem;
+  padding: 0.7rem 2rem;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: manrope;
+  color: var(--grey-color);
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.logout-btn {
+  background-color: var(--input-color);
+  margin: 0.5rem;
+  padding: 0.7rem 2rem;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: manrope;
+  color: var(--grey-color);
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-text {
+    color: var(--purple-color);
+    font-weight: 600;
+}
+
+
+
+
+
+@-webkit-keyframes shadow-drop-center {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+              box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    }
+  }
+  @keyframes shadow-drop-center {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+              box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    }
+  }
+  

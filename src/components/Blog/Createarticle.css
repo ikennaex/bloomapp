@@ -1,0 +1,74 @@
+.publish-div {
+    background-color: #fff;
+}
+
+.create-article-div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+}
+
+.create-article-icon {
+    color: var(--purple-color);
+}
+
+.publish-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.publish-btn {
+    background-color: var(--purple-color);
+    border: none;
+    font-family: manrope;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 10px;
+    height: 40px;
+    padding: 2px 10px;
+    cursor: pointer;
+}
+
+.create-article {
+    margin: 20px;
+}
+
+.createarticle-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.createarticle-title {
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: manrope;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.createarticle-title:focus {
+    outline: none;
+}
+
+.createarticle-body {
+    font-size: 15px;
+    font-family: manrope;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 10px;
+    border: none;
+}
+
+.createarticle-body:focus {
+    outline: none;
+}
+
+.file-input {
+    height: 30px;
+}
