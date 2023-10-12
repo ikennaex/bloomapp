@@ -8,7 +8,7 @@ const BlogPost = () => {
   const {id} = useParams()
 
   useEffect(() => {
-    fetch(`https://bloomapi.onrender.com/blogpost/${id}`).then((response) => {
+    fetch(`https://bloomapp-api.onrender.com/blogpost/${id}`).then((response) => {
       response.json().then((postInfo) => {
         setPostInfo(postInfo)
     })
@@ -28,7 +28,7 @@ const BlogPost = () => {
           <p>{postInfo.author.username}</p>
         </div>
         <p className='blogpost-publish'>Published <span className='blogpostpublish-date'>{postInfo.createdAt}</span></p>
-        <img className='blogpost-image' src= {`http://localhost:4000/${postInfo.image}`} />
+        <img className='blogpost-image' src= {`https://bloomapp-api.onrender.com/${postInfo.image}`} />
         <p className='blogpost-body'> {postInfo.body} </p>
         </div>
 

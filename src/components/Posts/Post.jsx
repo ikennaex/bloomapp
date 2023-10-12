@@ -31,7 +31,7 @@ const Post = ({caption, image, createdAt, author}) => {
       <p className='post-caption'>{caption}</p>
 
       <div className='main-post'>
-      <img className='post-image' src= {"https://bloomapi.onrender.com/"+image} />
+      <img className='post-image' src= {"https://bloomapp-api.onrender.com/"+image} />
       </div>
 
         {/* Section for Likes, Comments and shares */}

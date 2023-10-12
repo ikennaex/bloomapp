@@ -14,7 +14,7 @@ const RegisterPage = () => {
 
   const handleRegister = async (e) => {
     e.preventDefault()
-    const response = await fetch('https://bloomapi.onrender.com/register', {
+    const response = await fetch('https://bloomapp-api.onrender.com/register', {
       method: 'POST',
       body: JSON.stringify({username, email, password, confirmPassword}),
       headers: {'Content-type': 'application/json'},

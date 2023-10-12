@@ -6,7 +6,7 @@ import { UserContext } from "../../UserContext";
 const NavbarHome = () => {
     const {setUserInfo, userInfo} = useContext(UserContext)
     useEffect(() => {
-        fetch('https://bloomapi.onrender.com/profile', {
+        fetch('https://bloomapp-api.onrender.com/profile', {
             credentials: 'include',
         }).then(response => {
             response.json().then(userInfo => {
@@ -16,7 +16,7 @@ const NavbarHome = () => {
     }, [])
 
     const logout = () => {
-        fetch('http://localhost:4000/logout', {
+        fetch('https://bloomapp-api.onrender.com/logout', {
             credentials: "include",
             method: "POST",
         })

@@ -6,7 +6,7 @@ const BlogPreview = ({_id, title, image, body, author, createdAt}) => {
   return (
     <div className='blogprevieW-main'>
       <Link to={`/blogpost/${_id}`}>
-        <img className='blogpreview-img' src= {`http://localhost:4000/${image}`} />
+        <img className='blogpreview-img' src= {`https://bloomapp-api.onrender.com/${image}`} />
       </Link>
 
       <Link to={`/blogpost/${_id}`}>

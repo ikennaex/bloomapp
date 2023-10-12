@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 const Blog = () => {
   const [blogPosts, setBlogPosts] = useState("")
   useEffect(() => {
-    fetch('https://bloomapi.onrender.com/create-article').then(response => {
+    fetch('https://bloomapp-api.onrender.com/create-article').then(response => {
       response.json().then(postsDb => {
         setBlogPosts(postsDb)
       })

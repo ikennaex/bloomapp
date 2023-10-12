@@ -17,7 +17,7 @@ const AddNewPhoto = () => {
 
     //http://localhost:4000
 
-    const response = await fetch("https://bloomapi.onrender.com/addnewphoto", {
+    const response = await fetch("https://bloomapp-api.onrender.com/addnewphoto", {
       method: "POST",
       body: data,
       credentials: 'include',

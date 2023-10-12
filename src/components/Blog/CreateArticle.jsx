@@ -37,7 +37,7 @@ const CreateArticle = () => {
       data.set('file', files[0])
     e.preventDefault()
 
-    const response = await fetch("https://bloomapi.onrender.com/create-article", {
+    const response = await fetch("https://bloomapp-api.onrender.com/create-article", {
       method: "POST",
       body: data,
       credentials: 'include',

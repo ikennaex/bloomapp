@@ -8,7 +8,7 @@ import NavbarHome from '../navbar/NavbarHome'
 const HomePage = () => {
   const [posts, setPosts] = useState('')
   useEffect(() => {
-    fetch('https://bloomapi.onrender.com/addnewphoto').then(response => {
+    fetch('https://bloomapp-api.onrender.com/addnewphoto').then(response => {
       response.json().then(postsDb => {
         setPosts(postsDb)
       })
